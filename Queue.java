@@ -36,9 +36,7 @@ public class Queue<T>  {
 			tail = head;
 		}//end of if statement
 			else {
-				if (count==1) {
-					//head.setNextNode(newNode);
-				}
+				
 					
 				newNode.setNextNode(tail);
 				
